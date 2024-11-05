@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\bin\Debug\net8.0\LearnXinYMinutes.exe
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\bin\Debug\net8.0\LearnXinYMinutes.deps.json
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\bin\Debug\net8.0\LearnXinYMinutes.runtimeconfig.json
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\bin\Debug\net8.0\LearnXinYMinutes.dll
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\bin\Debug\net8.0\LearnXinYMinutes.pdb
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.dll
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\refint\LearnXinYMinutes.dll
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.pdb
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.genruntimeconfig.cache
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\ref\LearnXinYMinutes.dll
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.sourcelink.json
