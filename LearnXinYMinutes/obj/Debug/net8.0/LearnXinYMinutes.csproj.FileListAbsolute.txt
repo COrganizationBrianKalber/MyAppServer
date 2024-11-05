@@ -12,3 +12,4 @@ C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debu
 C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.pdb
 C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\ref\LearnXinYMinutes.dll
+C:\Users\Usuario\source\repos\LearnXinYMinutesSolution\LearnXinYMinutes\obj\Debug\net8.0\LearnXinYMinutes.sourcelink.json

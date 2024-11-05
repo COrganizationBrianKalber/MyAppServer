@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LearnXinYMinutes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6f9cfeceeff8147a473dc9ba8cd6b4c34b335d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("LearnXinYMinutes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LearnXinYMinutes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
