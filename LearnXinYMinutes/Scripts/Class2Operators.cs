@@ -5,6 +5,79 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+    BIG O:
+        ¿Qué es Big O?
+        Notacion Big O.
+            - Representa la complejidad del peor de los casos de un algoritmo. Utiliza terminos algebraicos para describir la complejidad de un algoritmo.
+            
+            - El Big O define el tiempo de ejecucion necesario para ejecutar un algoritmo identificando como cambiara el rendimiento de su algoritmoa medida que crece el tamano de la entrada. Pero no le dice que tan rapido es el tiempo de ejecucion de su algoritmo.
+
+        En notacion Big O, existen 6 tipos de complejidades (tiempo y espacio):
+        
+        - Constante: O(1)
+        - Lineal: O(n)
+        - Logaritmica: O(n log n)
+        - Cuadratica: O(n^2)
+        - Exponencial: O(2^n)
+        - Factorial: O(n!)
+
+        En el grafico de esta URL: https://www.freecodecamp.org/espanol/news/hoja-de-trucos-big-o/ dice que O(1), complejidad de tiempo constante, es el mejor. Esto implica que su algoritmo procesa solo una declaracion sin ninguna interacion. Luego esta O(log n), que es bueno, y otros similares:
+          
+          - O(1) - Excelente/Mejor
+          - O(log n) - Bueno
+          - O(n) - Aceptable
+          - O(n log n) - Malo
+          - O(n^2), O(2^n) y O(n!) - Horrible/Peor
+
+
+
+
+
+
+
+
+    Anagrama
+    Un anagrama es una palabra creada a partir de ka reordenacion de las letras de otras palabras. Ej: saco - caso.
+    Dado un array de strings, devuelve los anagramas agrupados. Cualquier orden es valido.
+    
+    Ejemplo:
+        Input: words = ["saco", "arresto", "programa", "rastreo", "caso"].
+        Output: [["saco", "caso"],["arresto","rastreo"], ["programa"]]
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Tareas :
+//Crear luego y utilizar los const y constructores
+
+//Fijarse como utilizar esto tambien
+// >> double[] = new double [n] 
+
+
+
+
+
+
+
+
+
+
+
 namespace LearnXinYMinutes.Scripts
 {
     
@@ -12,21 +85,155 @@ namespace LearnXinYMinutes.Scripts
 
 
 
-    /*
-     * Operator (Suma) + se lo describe asi: "x + y"
-     * Operator (Resta) - se lo describe asi: "x - y"
-     * Operator (Multiplicacion) * se lo describe asi: "x * y"
-     * Operator (Division) / se lo describe asi: "x / y"
-     * Operator (Modulo) % se lo describe asi: "x % y"
-     * Operator (Incremento) ++ se lo describe asi: "x ++"
-     * Operator (Decremento) -- se lo describe asi: "x --"
-    */
+   
 
 
 
     class Operator 
     {
-        
+
+
+
+
+        //Los valores de los campos
+        sbyte fooSbyte = 100;
+
+        byte fooByte = 100;
+
+        short fooShort = 1000;
+
+        ushort fooUShort = 10000;
+
+        int fooInt = 1;
+
+        uint fooUint = 1;
+
+        long fooLong = 100000L;
+
+        ulong fooUlong = 100000L;
+
+        double fooDouble = 123.4;
+
+        float fooFloat = 234.5f;
+
+        decimal fooDecimal = 150.3m;
+
+        bool fooBoolean = true;
+
+        char fooChar = 'A';
+
+
+
+        string fooString = "\"escape\" quotes and add \n (new lines) and \t (tabs)";
+
+
+
+
+        // You can access each character of the string with an indexer:
+        // private static char charFromString = fooString[1]; // => 'e'
+        // Strings are immutable: you can't do fooString[1] = 'X';
+
+        // Compare strings with current culture, ignoring case
+        //string.Compare(fooString, "x", StringComparison.CurrentCultureIgnoreCase);
+
+        // Formatting, based on sprintf
+        string fooFs = string.Format("Check Check, {0} {1}, {0} {1:0.0}", 1, 2);
+
+        // Dates & Formatting
+        DateTime fooDate = DateTime.Now;
+
+
+        // Verbatim String
+        // You can use the @ symbol before a string literal to escape all characters in the string
+        string path = "C:\\Users\\User\\Desktop";
+        string verbatimPath = @"C:\Users\User\Desktop";
+
+
+        // You can split a string over two lines with the @ symbol. To escape " use ""
+        string bazString = @"Here's some stuff
+                on a new line! ""Wow!"", the masses cried";
+
+        //Esto es cuando no se puede cambiar y esta asi de por defecto
+        const int HoursWorkPerWeek = 9001;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ///////////////////////////////////////
+        // Console Output.
+        ///////////////////////////////////////
+
+        public void Syntax()
+        {
+            // Use Console.WriteLine to print lines
+            Console.WriteLine("");
+
+            Console.WriteLine(
+                    "Integer: " + 10 +
+                    " Double: " + 3.14 +
+                    " Boolean: " + true);
+
+            //Para imprimir en lineas separadas
+            Console.Write("Hello ");
+            Console.Write("World");
+
+
+            //Imprimiendo las variables campos de arriba
+            //El $ es un formato como en Python de (f"{asd}")
+            Console.WriteLine($"fooSbyte: {fooSbyte}");
+            Console.WriteLine($"fooByte: {fooByte}");
+            Console.WriteLine($"fooShort: {fooShort}");
+            Console.WriteLine($"fooShort: {fooUShort}");
+
+
+            //String
+            //Console.WriteLine(fooString);
+            //
+            //Console.WriteLine(path == verbatimPath);  // => true
+            //Console.WriteLine(fooDate.ToString("hh:mm, dd MMM yyyy"));
+
+            //Console.WriteLine("intList at 0: " + intList[0]);
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+    * Operator (Suma) + se lo describe asi: "x + y"
+    * Operator (Resta) - se lo describe asi: "x - y"
+    * Operator (Multiplicacion) * se lo describe asi: "x * y"
+    * Operator (Division) / se lo describe asi: "x / y"
+    * Operator (Modulo) % se lo describe asi: "x % y"
+    * Operator (Incremento) ++ se lo describe asi: "x ++"
+    * Operator (Decremento) -- se lo describe asi: "x --"
+        */
+
+
         static void Main(string[] args) {
 
             //Type Casting: Es cuando asignas un valor de dato a otro tipo de dato. Como esto:
@@ -119,7 +326,7 @@ namespace LearnXinYMinutes.Scripts
 
             Console.WriteLine(Math.Max(5, 10));
             Console.WriteLine(Math.Min(5, 10));
-
+            Console.Read();
 
             if (z > 18)
             {
@@ -290,18 +497,44 @@ namespace LearnXinYMinutes.Scripts
 
 
             }
-            static string myBucles(string bucleFor) 
+            
+            //Sintaxis para llamar a un metodo o una funcion y luego como llamar a una clase
+
+            //myObject.myBucles(string);
+            //myBucles(string);
+
+
+
+
+        }
+        static void myBucles(string bucleFor)
+        {
+            Console.WriteLine("For Loop");
+            //Syntax:
+            /*
+             * for(statement 1; statement 2; statement 3) 
+             * {
+             * }
+             */
+            //string cadena = "Cadena";
+            for ( /* 1 */ int i = 0; /* 2 */ i < 5; /* 3 */ i ++);
+            
+            //Fijarse para que sirve esto!
+            
+            // Outer loop
+            for (int i = 1; i <= 2; ++i)
             {
+                Console.WriteLine("Outer: " + i);  // Executes 2 times
 
-                Console.WriteLine("For Loop");
+                // Inner loop
+                for (int j = 1; j <= 3; j++)
+                {
+                    Console.WriteLine(" Inner: " + j); // Executes 6 times (2 * 3)
+                }
             }
-                
 
 
-
-
-
-
-    }
+            
+        }
     }
 }
